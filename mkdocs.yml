@@ -1,10 +1,10 @@
 site_name: AI-Powered API Documentation
 site_description: Modern, intelligent API documentation with AI-powered features
 site_author: Your Name
-site_url: https://your-username.github.io/ai-api-docs
+site_url: https://rajwar92.github.io/ai-api-docs
 
-repo_name: your-username/ai-api-docs
-repo_url: https://github.com/your-username/ai-api-docs
+repo_name: Rajwar92/ai-api-docs
+repo_url: https://github.com/Rajwar92/ai-api-docs
 edit_uri: edit/main/docs/
 
 theme:
@@ -97,23 +97,23 @@ markdown_extensions:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/your-username/ai-api-docs
+      link: https://github.com/Rajwar92/ai-api-docs
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/yourusername
+      link: https://twitter.com/rajwar92
     - icon: fontawesome/brands/linkedin
-      link: https://linkedin.com/in/yourusername
+      link: https://linkedin.com/in/rajwar92
   analytics:
     provider: google
     property: G-XXXXXXXXXX
   version:
     provider: mike
   footer:
-    copyright: "&copy; 2024 Your Name. Built with ❤️ using MkDocs & Material for MkDocs."
+    copyright: "&copy; 2024 Rajwar92. Built with ❤️ using MkDocs & Material for MkDocs."
     links:
       - name: Documentation
         url: /api-reference/index.md
       - name: GitHub
-        url: https://github.com/your-username/ai-api-docs
+        url: https://github.com/Rajwar92/ai-api-docs
       - name: Contact
         url: /support/contact.md
 
