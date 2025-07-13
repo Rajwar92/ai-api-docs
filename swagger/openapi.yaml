@@ -1,0 +1,10 @@
+openapi: 3.0.0
+info:
+  title: Logistics API
+paths:
+  /shipments:
+    get:
+      summary: Get shipments
+      responses:
+        '200':
+          description: Success

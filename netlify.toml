@@ -1,0 +1,20 @@
+[build]
+  publish = "site"
+  command = "mkdocs build"
+
+[build.environment]
+  PYTHON_VERSION = "3.9"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+[context.production.environment]
+  MKDOCS_CONFIG_FILE = "mkdocs.yml"
+
+[context.deploy-preview.environment]
+  MKDOCS_CONFIG_FILE = "mkdocs.yml"
+
+[context.branch-deploy.environment]
+  MKDOCS_CONFIG_FILE = "mkdocs.yml" 

@@ -1,0 +1,148 @@
+site_name: AI-Powered API Documentation
+site_description: Modern, intelligent API documentation with AI-powered features
+site_author: Your Name
+site_url: https://your-api-docs.netlify.app
+
+repo_name: your-username/ai-api-docs
+repo_url: https://github.com/your-username/ai-api-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    - content.tabs.link
+    - content.tooltips
+    - header.autohide
+    - search.highlight
+    - search.share
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  favicon: assets/favicon.png
+  logo: assets/logo.png
+
+plugins:
+  - search
+  - swagger-ui-tag
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - minify:
+      minify_html: true
+  - macros:
+      include_dir: docs
+  - awesome-pages
+  - section-index
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/your-username/ai-api-docs
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourusername
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/yourusername
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+  version:
+    provider: mike
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Quick Start: getting-started/quick-start.md
+    - Authentication: getting-started/authentication.md
+    - Rate Limits: getting-started/rate-limits.md
+  - API Reference:
+    - Overview: api-reference/index.md
+    - Endpoints: api-reference/endpoints.md
+    - Models: api-reference/models.md
+    - Errors: api-reference/errors.md
+  - Guides:
+    - Best Practices: guides/best-practices.md
+    - Webhooks: guides/webhooks.md
+    - SDKs: guides/sdks.md
+  - Examples:
+    - JavaScript: examples/javascript.md
+    - Python: examples/python.md
+    - cURL: examples/curl.md
+  - Tutorials:
+    - Building Your First App: tutorials/first-app.md
+    - Advanced Features: tutorials/advanced.md
+  - Tools:
+    - Postman Collection: tools/postman.md
+    - Swagger UI: tools/swagger.md
+  - Support:
+    - FAQ: support/faq.md
+    - Contact: support/contact.md
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
