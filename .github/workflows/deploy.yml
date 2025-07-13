@@ -35,6 +35,11 @@ jobs:
       - name: Build with MkDocs
         run: mkdocs build
         
+      - name: Copy .nojekyll file
+        run: |
+          touch site/.nojekyll
+          echo "Created .nojekyll file to disable Jekyll processing"
+        
       - name: Setup Pages
         uses: actions/configure-pages@v4
         
