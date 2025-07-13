@@ -107,6 +107,15 @@ extra:
     property: G-XXXXXXXXXX
   version:
     provider: mike
+  footer:
+    copyright: "&copy; 2024 Your Name. Built with ❤️ using MkDocs & Material for MkDocs."
+    links:
+      - name: Documentation
+        url: /api-reference/index.md
+      - name: GitHub
+        url: https://github.com/your-username/ai-api-docs
+      - name: Contact
+        url: /support/contact.md
 
 nav:
   - Home: index.md

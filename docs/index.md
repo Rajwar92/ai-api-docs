@@ -1,4 +1,9 @@
-# Welcome to AI-Powered API Documentation
+<div class="hero">
+  <img src="assets/logo.png" alt="AI API Logo" style="width:80px; margin-bottom:1rem;">
+  <h1>AI-Powered API Documentation</h1>
+  <p>Modern, intelligent API documentation with interactive examples, beautiful design, and AI-powered features.</p>
+  <a href="getting-started/quick-start.md" class="cta-btn">Get Started</a>
+</div>
 
 <div class="grid cards" markdown>
 
@@ -33,56 +38,29 @@ Our AI-powered API provides cutting-edge capabilities for developers building th
 - **🌐 Global CDN**: Lightning-fast delivery worldwide
 - **🛠️ Developer-Friendly**: RESTful API with comprehensive SDKs
 
-### 🎯 Popular Use Cases
-
-- **Content Generation**: Create engaging, personalized content at scale
-- **Data Analysis**: Extract insights from complex datasets
-- **Automation**: Streamline workflows with intelligent automation
-- **Personalization**: Deliver tailored experiences to users
-- **Predictive Analytics**: Forecast trends and behaviors
-
 ## 🛠️ Getting Started
 
 Choose your preferred programming language to get started:
 
 === "JavaScript"
-
     ```javascript
     const api = new APIClient('your-api-key');
-    
-    const response = await api.generate({
-      prompt: "Write a blog post about AI",
-      model: "gpt-4"
-    });
-    
+    const response = await api.generate({ prompt: "Write a blog post about AI", model: "gpt-4" });
     console.log(response.content);
     ```
-
 === "Python"
-
     ```python
     import api_client
-    
     client = api_client.Client("your-api-key")
-    
-    response = client.generate(
-        prompt="Write a blog post about AI",
-        model="gpt-4"
-    )
-    
+    response = client.generate(prompt="Write a blog post about AI", model="gpt-4")
     print(response.content)
     ```
-
 === "cURL"
-
     ```bash
     curl -X POST https://api.example.com/v1/generate \
       -H "Authorization: Bearer your-api-key" \
       -H "Content-Type: application/json" \
-      -d '{
-        "prompt": "Write a blog post about AI",
-        "model": "gpt-4"
-      }'
+      -d '{ "prompt": "Write a blog post about AI", "model": "gpt-4" }'
     ```
 
 ## 📈 API Status
@@ -96,14 +74,6 @@ Choose your preferred programming language to get started:
 - **Webhooks**: ✅ Online  
 - **Dashboard**: ✅ Online
 - **Documentation**: ✅ Online
-
-## 🔗 Quick Links
-
-- [Authentication Guide](getting-started/authentication.md)
-- [Rate Limits](getting-started/rate-limits.md)
-- [Error Codes](api-reference/errors.md)
-- [Postman Collection](tools/postman.md)
-- [SDK Downloads](guides/sdks.md)
 
 ## 💬 Need Help?
 
