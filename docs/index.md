@@ -7,19 +7,19 @@
 
 <div class="grid cards" markdown>
 
--   :fontawesome-solid-rocket:{ .lg .middle } __[Quick Start](getting-started/quick-start.md)__
+-   :rocket:{ .lg .middle } __[Quick Start](getting-started/quick-start.md)__
 
     Get up and running with our API in minutes
 
--   :fontawesome-solid-book:{ .lg .middle } __[API Reference](api-reference/index.md)__
+-   :book:{ .lg .middle } __[API Reference](api-reference/index.md)__
 
     Complete API documentation with interactive examples
 
--   :fontawesome-solid-code:{ .lg .middle } __[Examples](examples/javascript.md)__
+-   :code:{ .lg .middle } __[Examples](examples/javascript.md)__
 
     Code examples in multiple programming languages
 
--   :fontawesome-solid-graduation-cap:{ .lg .middle } __[Tutorials](tutorials/first-app.md)__
+-   :school:{ .lg .middle } __[Tutorials](tutorials/first-app.md)__
 
     Step-by-step guides to build amazing applications
 
