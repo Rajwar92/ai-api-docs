@@ -131,6 +131,7 @@ nav:
     - Best Practices: guides/best-practices.md
     - Webhooks: guides/webhooks.md
     - SDKs: guides/sdks.md
+    - AI-Powered API Docs from Scratch: guides/ai-api-docs-from-scratch.md
   - Examples:
     - JavaScript: examples/javascript.md
     - Python: examples/python.md
