@@ -2,7 +2,7 @@
   <img src="assets/logo.png" alt="AI API Logo" style="width:80px; margin-bottom:1rem;">
   <h1>AI-Powered API Documentation</h1>
   <p>Modern, intelligent API documentation with interactive examples, beautiful design, and AI-powered features.</p>
-  <a href="getting-started/quick-start.md" class="cta-btn">Get Started</a>
+  <a href="getting-started/quick-start/" class="cta-btn">Get Started</a>
 </div>
 
 <div class="grid cards" markdown>
