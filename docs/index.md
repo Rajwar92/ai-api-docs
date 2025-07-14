@@ -7,19 +7,19 @@
 
 <div class="grid cards" markdown>
 
--   :rocket:{ .lg .middle } __[Quick Start](getting-started/quick-start.md)__
+- :rocket:{ .lg .middle } __[Quick Start](getting-started/quick-start.md)__
 
     Get up and running with our API in minutes
 
--   :book:{ .lg .middle } __[API Reference](api-reference/index.md)__
+- :book:{ .lg .middle } __[API Reference](api-reference/index.md)__
 
     Complete API documentation with interactive examples
 
--   :code:{ .lg .middle } __[Examples](examples/javascript.md)__
+- 📋[**Examples**](examples/javascript.md)
 
     Code examples in multiple programming languages
 
--   :school:{ .lg .middle } __[Tutorials](tutorials/first-app.md)__
+- :school:{ .lg .middle } __[Tutorials](tutorials/first-app.md)__
 
     Step-by-step guides to build amazing applications
 
